@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: aliceblue;
+}
+
+header,header  ul{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: end;
+    list-style: none;
+    margin: 10px;
+    
+}
+header{
+    border-bottom: solid 2px black;
+    
+    width: 100%;
+    float: right;
+   position: fixed;
+}
+
+header li{
+    padding: 20px;
+    margin: 10px;
+    background-color: beige;
+}
+
+.left-menu-container{
+    display: flex;
+   
+    border-right: solid 2px black;
+    
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 255, 34, 0.404,);
+    background-image: url(/asserts/images/dragao-dourado.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: .4s;
+    
+    
+    
+}
+.left-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 153, 255, 0.5);
+    width: 100%;
+   
+    
+}
+.left-menu:hover{
+    backdrop-filter: blur(5px);
+    transition: .4s;
+}
+.left-menu ul{
+    height: 50%;
+    list-style: none;
+    background-color: aqua;
+}
+.left-menu li{
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: beige;
+
+}
+main{
+    margin-top: 10%;
+    float: right;
+    width: 70%;
+}
+main div{
+    background-color: rgba(49, 102, 52, 0.418);
+    margin: 10px;
+    height: 90vh;
+    width: 90%;
+}
