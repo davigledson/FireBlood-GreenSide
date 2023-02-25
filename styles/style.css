@@ -22,7 +22,9 @@ header{
     float: right;
    position: fixed;
 }
-
+header  ul{
+    flex-wrap: wrap;
+}
 header li{
     padding: 20px;
     margin: 10px;
@@ -45,6 +47,10 @@ header li{
     
     
     
+}
+.left-menu-container:hover{
+    width: 50%;
+    transition: .4s;
 }
 .left-menu{
     display: flex;
