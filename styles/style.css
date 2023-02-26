@@ -31,6 +31,27 @@ header .list-top{
     list-style: none;
     height: 2rem;
 }
+.list-top i{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.container-search{
+    background-color: aquamarine;
+    padding: 1rem;
+    border-radius: 50%;
+    cursor: pointer;transition: .4s;
+}
+.container-search:active{
+    
+    background-color: red;
+    transition: .4s;
+
+}
+.container-search i{
+    font-size: 1.5rem;
+    
+    
+}
 header .list-top li{
     padding: 10px;
     
@@ -141,7 +162,7 @@ header .list-bottom li{
     width: 160%;
   }
 .left-menu li:hover{
-    transform: scale(1.3);
+    transform: scale(1.2);
     margin-left: 3rem;
     color: white;
    
