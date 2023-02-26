@@ -91,22 +91,59 @@ header .list-bottom li{
     transition: .4s;
 }
 .left-menu ul{
-    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60%;
     list-style: none;
-    background-color: aqua;
+    background-color: rgba(16, 228, 228);
     width: 60%;
 }
 
 .left-menu li{
     margin-bottom: 1rem;
-    padding: 10px;
-    background-color: beige;
+    padding: 0.6rem;
+   
     transition: .4s;
+    
 
 }
+.left-menu li{
+    color: rgb(0, 128, 0);
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid rgb(0, 128, 0);
+   
+    font-weight: bold;
+    background: transparent;
+    position: relative;
+    transition: all .5s;
+    overflow: hidden;
+    color:black;
+   
+  }
+  
+  
+  .left-menu li::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    top: 0;
+    left: -40px;
+    transform: skewX(45deg);
+    background-color: rgb(0, 128, 0);;
+    z-index: -1;
+    transition: all 1s;
+  }
+  
+  .left-menu li:hover::before {
+    width: 160%;
+  }
 .left-menu li:hover{
     transform: scale(1.3);
     margin-left: 3rem;
+    color: white;
    
 }
 main{
