@@ -51,7 +51,7 @@ header .list-top{
     transition: .4s all ease;
     
 }
-
+/*afeito  para barra de pesquisa*/
 .container-search i{
     background-color: aquamarine;
     padding: 1rem;
