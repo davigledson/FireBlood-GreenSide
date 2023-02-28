@@ -1,7 +1,7 @@
 const searchIcon = document.getElementById('search-icon')
-const inputBar = document.getElementById('input-search')
+const containerSearch = document.getElementById('container-search')
 
 searchIcon.addEventListener('click', function() {
 
-inputBar.classList.toggle('input-search-bar') //document.body.classList.toggle('input-search') - altenaria a classe no body
+containerSearch.classList.toggle('container-active') //document.body.classList.toggle('input-search') - altenaria a classe no body
 });
