@@ -11,9 +11,10 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: end; 
+    
     width: 100%;
    position: fixed;
-   
+   background-color: rgba(208, 226, 43, 0.445);
 }
 header .top-menu{
     width: 70%;
@@ -28,6 +29,7 @@ header .iconsAndBar{
 }
 header .list-top{
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     height: 2rem;
 }
@@ -42,6 +44,7 @@ header .list-top{
     display: flex;
     flex-direction: row;
     align-items: center;
+    
      
 }
 
@@ -51,12 +54,12 @@ header .list-top{
     outline: none;
     border: none;   
     
-    width: 0px;
+    width: 150px;
     transition: .4s;   
 } 
 
 .container-active input{
-    width: 150px;
+    width: 0px;
     transition: .4s;
     padding: 1rem 0;
 }
@@ -95,6 +98,7 @@ header  .list-bottom{
 header .list-bottom li{
     padding: 20px;
     margin: 10px;
+    cursor: pointer;
     background-color: beige;
 }
 
@@ -124,7 +128,8 @@ header .list-bottom li{
 .left-menu{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:baseline;
+    padding-left: 1rem;
     justify-content: center;
     background-color: rgba(0, 153, 255, 0.5);
     width: 100%;
@@ -148,7 +153,7 @@ header .list-bottom li{
 .left-menu li{
     margin-bottom: 1rem;
     padding: 0.6rem;
-   
+   cursor: pointer;
     transition: .4s;
     
 
