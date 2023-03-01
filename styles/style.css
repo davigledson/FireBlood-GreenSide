@@ -36,21 +36,32 @@ header .list-top{
     font-size: 1.5rem;
     cursor: pointer;
 }
+
+/*afeito  para barra de pesquisa*/
 .container-search{
     display: flex;
     flex-direction: row;
     align-items: center;
+     
 }
-/*afeito  para barra de pesquisa*/
-.container-search{
-    background-color: azure;
-} 
-.container-active { 
-    background: green;
-    padding-left: 20px;
-    transition: .4s all ease;
+
+.container-search input{
+    background: none;
+    padding: 1rem 0;
+    outline: none;
+    border: none;   
     
+    width: 0px;
+    transition: .4s;   
+} 
+
+.container-active input{
+    width: 150px;
+    transition: .4s;
+    padding: 1rem 0;
 }
+
+
 /*afeito  para barra de pesquisa*/
 .container-search i{
     background-color: aquamarine;
