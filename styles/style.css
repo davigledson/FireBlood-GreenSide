@@ -198,6 +198,7 @@ header .list-bottom li{
 }
 main{
     margin-top: 13rem;
+    
     float: right;
     width: 70%;
     background-color: rgba(41, 231, 114, 0.473);
@@ -207,10 +208,13 @@ main div{
     margin: 10px;
     height: 90vh;
     width: 90%;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .start{
     display: flex;
+    
 }
 .quotes{
     width: 100%;
