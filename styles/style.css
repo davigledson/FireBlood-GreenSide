@@ -114,7 +114,7 @@ header .list-bottom li{
     background-image: url(/asserts/images/dragao-dourado.jpg);
     opacity: 0.8;
     background-size: cover;
-    background-position: center;
+    background-position: center left;
     transition: .4s;
     
     
@@ -258,5 +258,22 @@ background: none;
 }
 
 .content2 p{
+    margin: 1rem;
+}
+.content3{
+    margin: 2rem;
+    background-color: cornflowerblue;  
+}
+.content3 p{
+    margin: 1rem;
+    background-color: rgba(100, 187, 237, 0.466);
+}
+
+.content4{
+    margin: 2rem;
+    background-color: darkcyan;
+}
+
+.content4 p{
     margin: 1rem;
 }
