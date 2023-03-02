@@ -203,7 +203,7 @@ main{
     width: 70%;
     background-color: rgba(41, 231, 114, 0.473);
 }
-main div{
+main div {
     background-color: rgba(49, 102, 52, 0.418);
     margin: 10px;
     height: 90vh;
@@ -212,9 +212,22 @@ main div{
     margin-right: 2rem;
 }
 
+
 .start{
     display: flex;
     
+}
+
+.content1{
+    background-color: rgba(0, 255, 255, 0.507);
+    width: 90%;
+    height: 600px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
+}
+.content1 p{
+    margin: 1rem;
 }
 .quotes{
     width: 100%;
@@ -229,4 +242,21 @@ main div{
 .illustrations img{
     height: 100%;
     
+}
+.content1 img{
+    width: 100%;
+    height: 60%;
+}
+
+.content2{
+    background: rgba(255, 0, 0, 0.493);
+    margin: 2rem;
+}
+.content2 div{
+display: flex;
+background: none;
+}
+
+.content2 p{
+    margin: 1rem;
 }
