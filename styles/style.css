@@ -221,7 +221,7 @@ main div {
 .content1{
     background-color: rgba(0, 255, 255, 0.507);
     width: 90%;
-    height: 600px;
+    height: 100%;
     margin-left: 2rem;
     margin-right: 2rem;
     
@@ -237,11 +237,18 @@ main div {
     height: 20%;
 }
 .illustrations{
-    width: 400px;
+    width: 100%;
 }
 .illustrations img{
     height: 100%;
     
+}
+h1{
+    margin: 2rem 1rem;
+    border-bottom: solid black 1px;
+}
+p{
+    font-size: 1.3rem;
 }
 .content1 img{
     width: 100%;
