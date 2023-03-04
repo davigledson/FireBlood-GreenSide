@@ -203,19 +203,22 @@ main{
     width: 70%;
     background-color: rgba(41, 231, 114, 0.473);
 }
-main div {
+main .start div {
     background-color: rgba(49, 102, 52, 0.418);
     margin: 10px;
-    height: 90vh;
-    width: 90%;
+    height: 100%;
+    width: 100%;
     margin-left: 2rem;
     margin-right: 2rem;
+    
 }
 
 
 .start{
     display: flex;
-    
+    align-items: center;
+    justify-content: baseline;
+    width: 100%;
 }
 
 .content1{
@@ -230,17 +233,18 @@ main div {
     margin: 1rem;
 }
 .quotes{
-    width: 100%;
+    
     height: 100%;
 }
 .quote{
-    height: 20%;
+    
+    width:100% ;
 }
-.illustrations{
-    width: 100%;
-}
+
+
 .illustrations img{
     height: 100%;
+    width: 100%;
     
 }
 h1{ font-size: 2rem;
@@ -259,7 +263,7 @@ p{
     background: rgba(255, 0, 0, 0.493);
     margin: 2rem;
 }
-.content2 div{
+.content2 .left-text{
 display: flex;
 background: none;
 }
@@ -283,4 +287,13 @@ background: none;
 
 .content4 p{
     margin: 1rem;
+}
+
+.content4 div{
+    display: flex;width: 100%;
+    height: 100%;
+}
+.content4 img{
+    width: 50%;
+    height: 10%;
 }
