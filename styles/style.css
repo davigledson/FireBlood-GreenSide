@@ -3,7 +3,9 @@
     margin: 0;
 }
 body{
-    background-color: aliceblue;
+    background-color: rgb(21, 105, 42);
+    background-image: url(/asserts/images/dragao-dourado.jpg);
+    background-repeat: no-repeat;
 }
 
 
@@ -15,6 +17,7 @@ header{
     width: 100%;
    position: fixed;
    background-color: rgba(208, 226, 43, 0.445);
+   z-index: 1;
 }
 header .top-menu{
     width: 70%;
@@ -116,7 +119,7 @@ header .list-bottom li{
     background-size: cover;
     background-position: center left;
     transition: .4s;
-    
+    z-index: 1;
     
     
 }
@@ -148,6 +151,7 @@ header .list-bottom li{
     list-style: none;
     background-color: rgba(16, 228, 228);
     width: 60%;
+    z-index: 1;
 }
 
 .left-menu li{
@@ -170,6 +174,7 @@ header .list-bottom li{
     transition: all .5s;
     overflow: hidden;
     color:black;
+   
    
   }
   
@@ -201,13 +206,13 @@ main{
     
     float: right;
     width: 70%;
-    background-color: rgba(41, 231, 114, 0.473);
+    
 }
 main .start div {
-    background-color: rgba(49, 102, 52, 0.418);
+   
     margin: 10px;
     height: 100%;
-    width: 100%;
+    width: 60%;
     margin-left: 2rem;
     margin-right: 2rem;
     
@@ -220,13 +225,20 @@ main .start div {
     justify-content: baseline;
     width: 100%;
 }
+.start p {
+text-shadow: 2px 2px white;
+background-color: rgba(240, 248, 255, 0.452);
+backdrop-filter: blur(2px);
+padding: 2rem;
 
+}
 .content1{
-    background-color: rgba(0, 255, 255, 0.507);
+    
     width: 90%;
     height: 100%;
     margin-left: 2rem;
     margin-right: 2rem;
+    background-color: rgba(240, 248, 255, 0.479);
     
 }
 .content1 p{
@@ -260,7 +272,7 @@ p{
 }
 
 .content2{
-    background: rgba(255, 0, 0, 0.493);
+   
     margin: 2rem;
 }
 .content2 .left-text{
@@ -273,16 +285,16 @@ background: none;
 }
 .content3{
     margin: 2rem;
-    background-color: cornflowerblue;  
+   
 }
 .content3 p{
     margin: 1rem;
-    background-color: rgba(100, 187, 237, 0.466);
+   
 }
 
 .content4{
     margin: 2rem;
-    background-color: darkcyan;
+   
 }
 
 .content4 p{
