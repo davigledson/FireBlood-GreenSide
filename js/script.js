@@ -13,3 +13,11 @@ const leftContainerActive = document.getElementById('left-menu-container-active'
 arrowLeft.addEventListener('click',function(){
 leftContainerActive.classList.toggle('left-menu-container-active')
 })
+
+
+const arrowTop = document.getElementById('top-arrow-itens')
+const headerActive = document.getElementById('header-active')
+
+arrowTop.addEventListener('click',function(){
+    headerActive.classList.toggle('header-active')
+})
