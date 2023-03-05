@@ -3,7 +3,7 @@
     margin: 0;
 }
 body{
-    background-color: rgb(21, 105, 42);
+   
     background-image: url(/asserts/images/dragao-dourado.jpg);
     background-repeat: no-repeat;
 }
@@ -107,13 +107,14 @@ header .list-bottom li{
 
 .left-menu-container{
     display: flex;
-   
+    align-items: center;
+    flex-direction: row-reverse;
     border-right: solid 2px black;
     
     width: 25%;
     height: 100%;
     position: fixed;
-    background-color: rgba(0, 255, 34, 0.404);
+   
     background-image: url(/asserts/images/dragao-dourado.jpg);
     opacity: 0.8;
     background-size: cover;
@@ -122,6 +123,21 @@ header .list-bottom li{
     z-index: 1;
     
     
+}
+.left-menu-itens{
+    display: flex;
+    font-size: 2rem;
+    background-color: aquamarine;
+    position: relative;
+    
+}
+/**/
+.left-menu-container-active{
+   /*para para javascript*/
+  background-color: rgba(255, 0, 255, 0.459);
+}
+#arrow-left{
+    background-color: antiquewhite;
 }
 .left-menu-container:hover{
     width: 50%;
@@ -139,6 +155,7 @@ header .list-bottom li{
    
     
 }
+
 .left-menu:hover{
     
     transition: .4s;
@@ -201,7 +218,13 @@ header .list-bottom li{
     color: white;
    
 }
+
+.initial-letter{
+    font-size: 2em;
+    color: rgb(255, 217, 0);
+}
 main{
+   
     margin-top: 13rem;
     
     float: right;
@@ -226,9 +249,9 @@ main .start div {
     width: 100%;
 }
 .start p {
-text-shadow: 2px 2px white;
-background-color: rgba(240, 248, 255, 0.452);
-backdrop-filter: blur(2px);
+color: white;
+background-color: rgba(42, 42, 43, 0.452);
+
 padding: 2rem;
 
 }
@@ -238,7 +261,8 @@ padding: 2rem;
     height: 100%;
     margin-left: 2rem;
     margin-right: 2rem;
-    background-color: rgba(240, 248, 255, 0.479);
+    color: white;
+    background-color: rgba(61, 63, 65, 0.479);
     
 }
 .content1 p{
@@ -272,7 +296,9 @@ p{
 }
 
 .content2{
-   
+    background-color: rgba(61, 63, 65, 0.479);
+
+   color: white;
     margin: 2rem;
 }
 .content2 .left-text{
@@ -285,7 +311,9 @@ background: none;
 }
 .content3{
     margin: 2rem;
-   
+    background-color: rgba(61, 63, 65, 0.479);
+
+    color: white;
 }
 .content3 p{
     margin: 1rem;
@@ -294,7 +322,10 @@ background: none;
 
 .content4{
     margin: 2rem;
-   
+    background-color: rgba(61, 63, 65, 0.479);
+
+    color: white;
+    
 }
 
 .content4 p{
@@ -302,7 +333,8 @@ background: none;
 }
 
 .content4 div{
-    display: flex;width: 100%;
+    display: flex;
+    width: 100%;
     height: 100%;
 }
 .content4 img{

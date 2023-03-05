@@ -1,1 +1,5 @@
-@import url(./Fira_Sans/Fira_Sans.css);
+
+@import url(./Lora/Lora.css);
+body{
+    font-family: 'Lora';
+}
