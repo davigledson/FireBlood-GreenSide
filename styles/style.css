@@ -18,7 +18,9 @@ header{
    position: fixed;
    background-color: rgba(208, 226, 43, 0.445);
    z-index: 1;
+   
 }
+
 header .top-menu{
     width: 70%;
 }
@@ -34,7 +36,7 @@ header .list-top{
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    height: 2rem;
+    
 }
 
 .list-top i{
@@ -104,7 +106,22 @@ header .list-bottom li{
     cursor: pointer;
     background-color: beige;
 }
-
+.list-arrowItens{
+    background-color: rgba(54, 179, 179, 0.466);
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    
+    
+}
+.top-arrow-itens{
+    font-size: 2em;
+    background-color: rgba(165, 42, 42, 0.479);
+    cursor: pointer;
+    top: 5rem;
+    position: relative;
+    
+}
 .left-menu-container{
     display: flex;
     align-items: center;
@@ -135,7 +152,7 @@ header .list-bottom li{
 
 /**/
 .left-menu-container-active{
-   /*para para javascript*/
+   /*função manipulada via javascript*/
   
   padding-left: 2rem;
  width: 0px;
@@ -152,6 +169,7 @@ header .list-bottom li{
 #arrow-left{
     background-color: rgb(248, 216, 33);
     padding: 1rem;
+    cursor: pointer;
 }
 .left-menu-container:hover{
     width: 50%;
