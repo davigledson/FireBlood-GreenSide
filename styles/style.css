@@ -129,15 +129,29 @@ header .list-bottom li{
     font-size: 2rem;
     background-color: aquamarine;
     position: relative;
+    left: 10%;
     
 }
+
 /**/
 .left-menu-container-active{
    /*para para javascript*/
-  background-color: rgba(255, 0, 255, 0.459);
+  
+  padding-left: 2rem;
+ width: 0px;
+}
+.bi-box-arrow-in-right{
+    display: none;
+}
+.left-menu-container-active .bi-box-arrow-left{
+    display: none;
+}
+.left-menu-container-active .bi-box-arrow-in-right{
+    display: block;
 }
 #arrow-left{
-    background-color: antiquewhite;
+    background-color: rgb(248, 216, 33);
+    padding: 1rem;
 }
 .left-menu-container:hover{
     width: 50%;
