@@ -213,6 +213,7 @@ display:none;
   padding-left: 2rem;
  width: 0px;
 }
+
 .bi-box-arrow-in-right{
     display: none;
 }
@@ -318,12 +319,23 @@ display:none;
     font-size: 2em;
     color: rgb(255, 217, 0);
 }
+.left-menu-container-active ~ main{ /*
+    ~ = seletor de irmão legal, aplica elementos no "main"
+    explicação oficial = Seleciona cada elemento 2 que é precedido por um elemento 1
+
+    no caso, caso o elemento 1 não exista, ira aplica a largura no main em 80%
+    */
+width: 80%;
+transition: .4s;
+}
 main{
    
     margin-top: 13rem;
     
     float: right;
     width: 70%;
+    text-align: justify;
+    transition: .4s;
     
 }
 main .start div {
@@ -435,4 +447,11 @@ background: none;
 .content4 img{
     width: 50%;
     height: 10%;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.459);
+    color: white;
+    width: 100%;
+    text-align: center;
 }
