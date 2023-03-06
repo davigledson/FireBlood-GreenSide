@@ -2,6 +2,11 @@
     padding: 0;
     margin: 0;
 }
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top:calc(10rem);
+    
+}
 body{
    
     background-image: url(/asserts/images/dragao-dourado.jpg);
@@ -127,10 +132,23 @@ header  .list-bottom{
     border-bottom: solid 2px black;
 }
 header .list-bottom li{
-    padding: 20px;
-    margin: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+header .list-bottom li a{
+    padding:1rem;
+    margin: 1rem;
+   
     cursor: pointer;
-    background-color: beige;
+    background-color: rgb(228, 228, 33);
+    text-decoration: none;
+    color: rgb(22, 22, 22);
+    font-size: 1.2em;
+}
+
+header .list-bottom li a:hover{
+    background-color: rgba(190, 190, 11, 0.582);
+    transition: .4s;
 }
 .list-arrowItens{
     background-color: rgba(54, 179, 179, 0.466);
@@ -142,7 +160,7 @@ header .list-bottom li{
 }
 .top-arrow-itens{
     font-size: 2em;
-    background-color: rgb(248, 216, 33);
+    background-color: rgba(248, 216, 33, 0.651);
     cursor: pointer;
    
     position: relative;
@@ -221,7 +239,7 @@ display:none;
     padding-left: 1rem;
     justify-content: center;
     background-color: rgba(0, 153, 255, 0.5);
-    width: 100%;
+   width: 100%;
    
     
 }
@@ -237,8 +255,13 @@ display:none;
     height: 60%;
     list-style: none;
     background-color: rgba(16, 228, 228);
-    width: 60%;
+    width: 100%;
     z-index: 1;
+    transition: .4s;
+}
+.left-menu-container:hover .left-menu ul{
+    width: 60%;
+    
 }
 
 .left-menu li{
@@ -249,6 +272,8 @@ display:none;
     
 
 }
+
+
 .left-menu li{
     color: rgb(0, 128, 0);
     text-transform: uppercase;
